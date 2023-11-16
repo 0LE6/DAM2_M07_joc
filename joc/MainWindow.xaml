@@ -1,0 +1,23 @@
+﻿<Window x:Class="joc.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:joc"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <DockPanel>
+        <StackPanel Orientation="Vertical" DockPanel.Dock="Left">
+            <Button Content="Roba" Name="Roba" Click="Roba_Click"/>
+        </StackPanel>
+        
+        <StackPanel Orientation="Horizontal" x:Name="stkBaralla" DockPanel.Dock="Top">
+            
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal" x:Name="stkMa" DockPanel.Dock="Top">
+
+        </StackPanel>
+        <Image Source="{StaticResource ResourceKey=Dors11}"/> 
+    </DockPanel>
+</Window>
